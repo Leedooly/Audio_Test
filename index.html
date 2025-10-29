@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Audio AB Test</title>
+<style>
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+  th { background-color: #f2f2f2; }
+
+  /* 첫 번째 열(Sentence) 왼쪽 정렬 */
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+</style>
+</head>
+<body>
+
+<h2>Audio AB Test</h2>
+<p>다음은 젊은 여성 음색으로 녹음된 나래이션 샘플입니다. 각 링크를 클릭하여 1번부터 10번 문장을 모두 들어본 뒤, 아래 특징을 가장 잘 살린 음성을 최종 선택해주세요.</p>
+
+1. 자연스럽고 안정된 발성<br>
+2. 제품을 차분하게 설명하거나 Q&A를 진행하는 듯한 편안한 전달 방식<p>
+
+<table id="testTable">
+  <tr>
+    <th>Sentence</th>
+    <th>Audio A</th>
+    <th>Audio B</th>
+    <th>Your Choice</th>
+  </tr>
+  <tr>
+    <td>고객님, 불편을 드려서 죄송합니다. 생년월일을 다시 말씀해 주시겠습니까?</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>4월 30일 만기되는 신용대출 상담하신 건가요?</td>
+    <td><audio controls src="audioA2.wav"></audio></td>
+    <td><audio controls src="audioB2.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>현재 직장은 서초구청으로 확인되는데, 변동사항은 없으십니까?</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>괜찮으시다면 고객님께서 편하신 시간에 제가 다시 한번 전화를 드리겠습니다.</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>직장으로 전화해서 다른 내용은 언급하지 않고, 단순히 재직 여부만 확인하오니 염려하지 않으셔도 됩니다.</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>유선으로 고객님의 자동기한연기에 대한 의사를 확인 후, 기한연기 처리해 드린다는 안내장의 우편입니다.</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>단, 재해로 인한 경우는 감액기간이 없고 고의적 사고 및 계약일로부터 2년 이내 자살로 인한 사망은 보장하지 않습니다.</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>신규보험가입문의는 080-474-9781 번으로 전화주세요.</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>약관과 청약서를 받지 못하셨거나 약관의 중요한 내용을 설명 받지 못하였을 경우에는 계약성립일로부터 3개월 이내에, 계약 취소를 요청하실수 있으신데요.</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>재난 액션, 해양 액션, 항공 액션, 무협 액션, 여성 액션, 모험 액션 산악 액션 등 다양한 액션이 펼쳐진다.</td>
+    <td><audio controls src="audioA1.wav"></audio></td>
+    <td><audio controls src="audioB1.wav"></audio></td>
+    <td>
+      <select>
+        <option value="">Select</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </td>
+  </tr>
+</table>
+
+<br>
+<label>Your Name: <input type="text" id="userName" placeholder="Enter your name"></label>
+<button onclick="downloadResults()">제출</button>
+
+<p style="color:blue">
+  제출 클릭 후 다운로드된 [이름]_results.csv 파일을 아래 링크로 업로드 해주세요!
+</p>
+<a href="https://drive.google.com/drive/u/0/folders/1c0Vr-Ax-dnAKpMVzVIKnN1GSdw8lLAcw" 
+   target="_blank" style="color:red">[업로드하기]</a>
+
+<script>
+function downloadResults() {
+  const name = document.getElementById("userName").value.trim();
+  if (!name) {
+    alert("이름을 입력해주세요!");
+    return;
+  }
+
+  const rows = []; // 결과에는 오직 선택값만 저장
+  const table = document.getElementById("testTable");
+  const trs = table.querySelectorAll("tr:not(:first-child)");
+
+  trs.forEach(tr => {
+    const choice = tr.cells[3].querySelector("select").value || "None";
+    rows.push([choice]);
+  });
+
+  const csvContent = "data:text/csv;charset=utf-8,"
+    + rows.map(e => e.join(",")).join("\n");
+
+  const encodedUri = encodeURI(csvContent);
+  const link = document.createElement("a");
+  link.setAttribute("href", encodedUri);
+  link.setAttribute("download", `${name}_results.csv`);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+</script>
+
+</body>
+</html>
